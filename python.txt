@@ -1,0 +1,27 @@
+1)
+a=input('enter ur name: ')
+print('Hello, ', a)
+2)
+a=float(input('Введите длинну ' ))
+b=float(input('Введите ширину '))
+print('Площадь:',a*b)
+3)
+n=int(input('Введите n ' ))
+print('сумма равна', (1+n)*n*0.5)
+4)
+h=int(input('введите часы '))
+m=int(input('введите минуты '))
+s=int(input('введите секунды '))
+print("всего секунд ", h*3600+m*60+s)
+5)
+h=float(input('введите рост '))
+w=int(input('введите вес '))
+print("ИМТ: ", w/(h*h))
+6)
+n=int(input("Введите целое число "))
+summ=0
+while n>0:
+    digit=n % 10
+    summ=summ+digit
+    n=n//10
+print("Сумма цифр: ", summ)
