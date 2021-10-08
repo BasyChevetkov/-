@@ -1,0 +1,39 @@
+1)
+a=int(input("Введите число "))
+if a % 2==0:
+    print("Чётное")
+else:
+    print("Нечётное")
+2)
+a=float(input("Введите температуру в цельсиях "))
+print((9/5)*a+32)
+3)
+a=int(input("Введите число "))
+if a%5 !=0 and a%7 !=0:
+    print("00")
+elif a%5 ==0 and a%7 !=0:
+    print("01")
+elif a%5 !=0 and a%7 ==0:
+    print("10")
+elif a%5 ==0 and a%7 ==0:
+    print("11")
+4)
+a=float(input("Введите коэффицент а: "))
+b=float(input("Введите коэффицент b: "))
+c=float(input("Введите коэффицент c: "))
+D=b**2 -4*a*c
+if D>0:
+    x1=(-b+ D**0.5)/(2*a)
+    x2=(-b - D**0.5)/(2*a)
+    print(x1)
+    print(x2)
+elif D==0:
+    x1=-b/(2*a)
+    print(x1)
+elif D<0:
+    print("Нет корней")
+6)
+a = input("Введите список чисел через пробел ")
+b = a.split(' ')
+c = len(set(b))
+print(c)
